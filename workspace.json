@@ -1,4 +1,9 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "rest-api": "apps/rest-api",
+    "web-platform": "apps/web-platform",
+    "web-platform-e2e": "apps/web-platform-e2e",
+    "workspace": ""
+  }
 }
