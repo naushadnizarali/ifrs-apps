@@ -66,7 +66,8 @@
       },
       "defaultConfiguration": "development",
       "options": {
-        "port": 4301
+        "port": 4301,
+        "proxyConfig": "apps/web-platform/proxy.conf.json"
       }
     },
     "extract-i18n": {
