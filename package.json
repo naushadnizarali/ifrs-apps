@@ -34,11 +34,11 @@
     "dep-graph": "nx dep-graph",
     "help": "nx help",
     "prepare": "husky install",
-    "release:major": "nx run workspace:version --releaseAs=major",
-    "release:minor": "nx run workspace:version --releaseAs=minor",
-    "release:patch": "nx run workspace:version --releaseAs=patch",
-    "release:pre:alpha": "nx run workspace:version --releaseAs=prerelease --preid=alpha",
-    "release:pre:beta": "nx run workspace:version --releaseAs=prerelease --preid=beta",
+    "release:major": "nx run workspace:version --releaseAs=major --push=true",
+    "release:minor": "nx run workspace:version --releaseAs=minor --push=true",
+    "release:patch": "nx run workspace:version --releaseAs=patch --push=true",
+    "release:pre:alpha": "nx run workspace:version --releaseAs=prerelease --preid=alpha --push=true",
+    "release:pre:beta": "nx run workspace:version --releaseAs=prerelease --preid=beta --push=true",
     "postinstall": "ngcc --properties es2015 browser module main"
   },
   "dependencies": {
