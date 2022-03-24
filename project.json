@@ -7,7 +7,8 @@
       "options": {
         "syncVersions": true,
         "baseBranch": "main",
-        "versionTagPrefix": ""
+        "versionTagPrefix": "",
+        "commitMessageFormat": "chore(${projectName}): release version ${version}"
       }
     }
   }
